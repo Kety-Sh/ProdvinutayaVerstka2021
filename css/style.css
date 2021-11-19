@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header{
+    background: #222222;
+    color: white;
+    padding: 19px 0;
+}
+
+.container{
+    max-width: 1160px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin-right: 41px;
+}
+/*прозрачность бургер-меню*/
+.header__button{
+    border: none;
+    background-color: transparent ;
+}
+
+.header__item:not(:last-child){
+    margin-right: 33px;
+}
+
+/*убрала меню кнопки*/
+.header__navigation{
+    display: none;
+}
+
+.promo{
+    height: 764px;
+    background: #F1E4E6;
+    margin: 0 0 63px;
+}
+
+.promo_flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    background:url('../img/men.png') no-repeat -230px ;
+}
+
+.promo__title{
+    max-width: 405px;
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F;
+}
+
+.promo__heading{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+}
+
+.promo__heading-subheading{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+}
+
+.promo__decor{
+    color: #F16D7F;
+}
+
+.categories{
+    margin: 100px 0;
+}
+
+.categories__flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+
+.categories__item { 
+    width: 100%;
+    min-height: 180px;
+    
+}
+
+.categories__item:not(:last-child){
+    width: 360px;
+    height:260px ;
+    
+}
+
+.categories__item--women {
+    background-image: url(../img/for-women.png)
+
+    
+}
+
+.categories__item--men{
+    background-image: url(../img/for-men.png);
+}
+
+.categories__item--kids{
+    background-image: url(../img/for-kids.png);
+}
+
+.categories__item--accesories {
+    background-repeat: no-repeat;
+    background-image: url(../img/accesories.png);
+}
+.categories__text{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight:400;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 105px  ;
+}
+
+.categories__pink-text{
+    color: #F16D7F;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.carts__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.carts__heading{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.carts__text{
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+
+
+.carts__item{
+padding: 30px;
+    
+    
+}
+
+.carts__item-heading{
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    /*text-align: left;*/
+    background: #F8F8F8;
+    padding: 24px 194px 13px 18px;
+}
+
+.carts__item-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    max-width: 360px;
+    background: #F8F8F8;
+    text-align: left;
+    padding-left: 17px;
+}
+
+.carts__item-price{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    background: #F8F8F8;
+    padding: 18px 289px 20px 18px;
+}
+
+.carts__button{
+    display: flex;
+    margin-right: -50%;
+}
+
+.carts__button--text{
+    color:#F26376;
+    text-align: center;
+    padding: 14px 38px;
+    border: 1px solid #FF6A6A
+}
+
+.black-section{
+    margin:  110px 0 0 0 ;
+    min-height: 340 px;
+}
+
+.black-section__flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    align-items: center;
+    gap: 30px;
+}
+
+.black-section__list{
+    
+
+}
+
+.black-section--title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.black-section--text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.black-section--image{
+    padding: 350 px 100px 350px 200px;
+}
