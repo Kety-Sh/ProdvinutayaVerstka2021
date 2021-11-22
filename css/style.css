@@ -207,7 +207,8 @@ padding: 30px;
 
 .carts__button{
     display: flex;
-    margin-right: -50%;
+    justify-content: center;
+    margin-bottom: 110px;
 }
 
 .carts__button--text{
@@ -218,40 +219,64 @@ padding: 30px;
 }
 
 .black-section{
-    margin:  110px 0 0 0 ;
-    min-height: 340 px;
+    
+    min-height: 340px;
+    background: #222222;
 }
 
 .black-section__flex{
     display: flex;
-    justify-content: space-between;
-    background-color: #222222;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
 }
 
-.black-section__list{
-    
+/*.black-section__list{
 
-}
+}*/
+
 
 .black-section--title{
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     color: #FBFBFB;
 }
 
 .black-section--text{
-    font-style: normal;
     font-weight: 300;
-    font-size: 13.972px;
+    font-size: 14px;
     line-height: 17px;
-    text-align: center;
     color: #FBFBFB;
 }
 
 .black-section--image{
-    padding: 350 px 100px 350px 200px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+/* не сделано*/
+.subscribe{
+    min-height: 448px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-image: url(../img/subscribebg.jpg);
+}
+.subscribe__item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__bottom{
+    min-height: 100px;
+    background-color: #222222;
+}
+
+.footer__bottom-text{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
