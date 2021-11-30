@@ -410,15 +410,15 @@ body{
     display: inline-block;
 }
 
-.registration{
+.registration__head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--lite-pink);
+    background-color: #F8F3F4;
     min-height: 148px;
 }
 
-.registration-header{
+.registration__head-flex-header{
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
