@@ -410,7 +410,7 @@ body{
     display: inline-block;
 }
 
-.registration__head{
+.registration__flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -418,9 +418,78 @@ body{
     min-height: 148px;
 }
 
-.registration__head-flex-header{
+.registration__flex-header{
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
     color: var(--pink);
+}
+
+.registration__form{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;*/
+}
+
+.registration__form-header{
+    color: var(--dark-blue);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+
+}
+
+.registration__form-text{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 360px;
+}
+
+.registration__form-input{
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px ;
+}
+
+.registration__lists-header{
+        font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color:var(--black);
+    }
+
+.registration__lists-text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color:var(--black);
+}
+
+.registration__lists-item{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color:var(--black);
+}
+
+.registration__lists-item{
+    margin: 0 0 0 25px;
+    position: relative;
+}
+
+.registration__lists-item::after{
+    content: '';
+    width: 20px;
+    height: 16px;
+    border: none;
+    position: absolute;
+    left: -25px;
+    background-image: url(../img/galochka.svg);
 }
